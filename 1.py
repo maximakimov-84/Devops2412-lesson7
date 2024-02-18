@@ -1,4 +1,4 @@
-test = "maxim akimov"
+test = "Maxim Akimov"
 print(f"test: {test}")
 
 
