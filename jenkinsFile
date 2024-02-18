@@ -1,6 +1,6 @@
 node {
     stage("clone") {
-        git branch: 'main', url: 'https://github.com/maximakimov-84/Devops2412-lesson7.git'
+        git branch: 'master', url: 'https://github.com/maximakimov-84/Devops2412-lesson7.git'
     }
     stage("show files"){
         sh "ls -l"
